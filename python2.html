@@ -2,14 +2,25 @@
 <html lang="en">
 	<head>
 		<style>
-	     ul {
-    list-style-type: none;
-    margin: 5px;
-    padding: 0;
+	     	ul {
+	    list-style-type: none;
+	    margin: 5px;
+	    padding: 10px;
+	    overflow: hidden;
+	    background-color: black;
 }
-		li a {
-    display: block;
-    width: 60px;
+	li {
+		float: left;
+		}
+	li a {
+		display: block;
+		text-align: center;
+		color: white;
+		width: 60px;
+		text-decoration: none;
+		}
+	li a:hover {
+    	background-color: #FFB6C1;
 }
 		p.solid {border-style: solid;}
 	body {
@@ -20,10 +31,13 @@
 		<title>Python Video</title>
 	</head>
 	<body>
-		<a href="index.html">Portfolio</a>
-		<a href="Mymusic.html">Music</a>
-		<a href="python1.html">Python Flowchart</a>
-
+	<ul>	
+		<li><a href="index.html">Portfolio</a></li>
+		<li><a href="Mymusic.html">Music</a></li>
+		<li><a href="python1.html">Python Flowchart</a></li>
+		<li><a href="python3.html">Python Write Up</a></li>
+	</ul>
+	
 	</br><center><p class="solid">Python Game Video</p></center>
 		<center><video width="520" height="440" allowtransparency="true" controls>
   		<source src="Videos/pythongame.mp4" type="video/mp4">
